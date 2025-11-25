@@ -29,9 +29,9 @@ REDSHIFT_PASSWORD = "sua_senha"
 Exemplo de uso 
 
 ```
-from redshift_connection import RedshiftConnector
+from pandas_redshift import PandasRedshift
 
-conn = RedshiftConnector()
+conn = PandasRedshift()
 
 query = """
 SELECT 'consegui criar um dataFrame de uma query!!!' as coluna;
